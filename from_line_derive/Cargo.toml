@@ -1,0 +1,16 @@
+[package]
+name = "from_line_derive"
+version = "0.0.1"
+authors = ["Gabriel M Costa <gmessiasc@gmail.com>"]
+categories = ["no-std", "no-std::no-alloc"]
+description = "Derive for #[Derive(FromLine)]"
+edition = "2021"
+
+[dependencies]
+from_line = { path = "../from_line" }
+quote = "1.0.35"
+syn = "2.0.46"
+
+[lib]
+name = "from_line_derive"
+proc_macro = true

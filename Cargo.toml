@@ -1,0 +1,2 @@
+[workspace]
+members = ["from_line", "from_line_derive", "from_line_tests"]

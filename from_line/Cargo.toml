@@ -1,0 +1,13 @@
+[package]
+name = "from_line"
+version = "0.0.1"
+authors = ["Gabriel M Costa <gmessiasc@gmail.com>"]
+categories = ["no-std", "no-std::no-alloc"]
+description = "Dummy library to learn how to create a rust library. It helps to create a object from a text line"
+edition = "2021"
+
+
+[dependencies]
+rust_decimal = "1.33.1"
+once_cell = "1.19.0"
+regex = "1.10.2"

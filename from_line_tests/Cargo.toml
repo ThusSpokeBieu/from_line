@@ -1,0 +1,14 @@
+[package]
+name = "from_line_tests"
+version = "0.1.0"
+authors = ["Gabriel M Costa <gmessiasc@gmail.com>"]
+categories = ["no-std", "no-std::no-alloc"]
+description = "Dummy tests for the dummy lib FromLine"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+from_line = { path = "../from_line" }
+from_line_derive = { path = "../from_line_derive" }
+rust_decimal = "1.33.1"
