@@ -1,4 +1,4 @@
-[ENGLISH](README.md)
+[READ IN ENGLISH](README.md)
 
 Esta é uma biblioteca fictícia utilizada como caso de estudo.
 

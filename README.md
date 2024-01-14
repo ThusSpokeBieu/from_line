@@ -1,4 +1,4 @@
-[PT-BR](README_PT-BR.md)
+[LEIA EM PT-BR](README_PT-BR.md)
 
 This is a dummy lib as study case.
 
