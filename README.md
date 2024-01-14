@@ -26,7 +26,7 @@ struct Person {
     #[from_line(6..10)]
     age: u32,
 
-    #[from_line(11..)]
+    #[from_line(11..50)]
     address: String,
 }
 ```
