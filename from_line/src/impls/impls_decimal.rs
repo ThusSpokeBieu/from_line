@@ -2,7 +2,6 @@ use rust_decimal::Decimal;
 use std::io::Error;
 
 use crate::{regex::regex_const::only_zero_regex, traits::from_string::FromString};
-use std::io::ErrorKind;
 
 impl FromString for Decimal {
     fn from_string(s: &str) -> Result<Self, Error> {
@@ -44,4 +43,3 @@ impl FromString for Option<Decimal> {
         }
     }
 }
-
